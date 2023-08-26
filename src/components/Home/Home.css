@@ -1,0 +1,21 @@
+.home {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("https://static.filmin.es/images/media/23602/2/still_0_3_2400x0.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.home__button-menu {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  right: 90px;
+  top: 80px;
+  font-size: 3rem;
+  cursor: pointer;
+}
+

@@ -1,0 +1,10 @@
+.bubble {
+    width: 100px;
+    height: 100px;
+    background-color: #66b3ff;
+    border-radius: 50%;
+    position: absolute;
+    background-size: cover;
+    background-image: url('ruta-de-tu-imagen.jpg');
+    cursor: pointer;
+}
