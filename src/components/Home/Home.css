@@ -1,7 +1,7 @@
 .home {
   width: 100%;
   min-height: 100vh;
-  background-image: url("https://static.filmin.es/images/media/23602/2/still_0_3_2400x0.jpg");
+  background-image: url("/img/Home_Mesa\ de\ trabajo\ 1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -10,12 +10,38 @@
 }
 
 .home__button-menu {
-  width: 60px;
-  height: 60px;
+  width: auto;
+  height: auto;
   position: absolute;
   right: 90px;
   top: 80px;
   font-size: 3rem;
   cursor: pointer;
+  background-color: transparent;
+  object-fit: contain;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  transition: transform 300ms ease-in-out;
+  margin-top: 100px;
 }
 
+.home__button-menu:hover {
+  background-color: rgb(72, 21, 153);
+  transform: scale(1.2);
+}
+
+.home__button-menu img{
+  background-color: none;
+  object-fit:cover;
+  width: 60px;
+  height: 60px;
+  color: white;
+  
+}
+
+.cls-1{
+  color: green;
+}

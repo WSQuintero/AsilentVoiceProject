@@ -1,0 +1,64 @@
+.nav-bar__container-links {
+  display: flex;
+  color: white;
+  width: 40%;
+  height: 40px;
+  justify-content: space-evenly;
+  position: absolute;
+  background-color: #441349;
+  padding: 1px;
+  align-items: center;
+  right: 20px;
+}
+
+.nav-bar__link {
+  width: auto;
+  height: 20px;
+  font-size: 2rem;
+  list-style: none;
+  border: 1px solid white;
+  display: grid;
+  place-content: center;
+  padding: 10px;
+}
+.nav-bar{
+    position: relative;
+    width: 100%;
+}
+.nav-bar__container-links::after {
+  width: 160px;
+  height: 100px;
+  background-color: #6E2C77;
+  border-radius: 100%;
+  z-index:9999;
+   content: "";
+   position: absolute;
+  background-image: url("/img/Logo_Silent_Voice.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  left: -150px;
+}
+
+
+.nav-bar__link a {
+  height: 20px;
+  color: white;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  
+}
+
+
+@media (max-width:1040px) {
+  .nav-bar__container-links::after {
+  display: none;
+}
+.nav-bar__container-links {
+  width: 100%;
+  position: relative;
+  right: 0;
+}
+}

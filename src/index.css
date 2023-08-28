@@ -1,21 +1,27 @@
 @font-face {
-  font-family: 'gabriola';
-  src: url('/fonts/gabriola-font/Gabriola.ttf');
+  font-family: "gabriola";
+  src: url("/fonts/gabriola-font/Gabriola.ttf");
 }
-:root{
+:root {
   font-size: 62.5%;
+  box-sizing: border-box;
 }
-*{
+html {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-body{
+body {
   width: 100%;
   min-height: 100vh;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family:"gabriola" ;
+  font-family: "gabriola";
 }
