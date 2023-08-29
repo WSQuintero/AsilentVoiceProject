@@ -15,9 +15,9 @@ function Home({ openMenu, setOpenMenu }) {
         onClick={() => setOpenMenu(!openMenu)}
       >
         {!openMenu ? (
-          <img src='/svg/arrow left_Mesa de trabajo 1.svg' alt='open menu' />
+          <img src='/svg/arrow_left.svg' alt='open menu' />
         ) : (
-          <img src='svg/arrow right_Mesa de trabajo 1.svg' alt='open menu' />
+          <img src='svg/arrow_right.svg' alt='open menu' />
         )}
       </button>
     </section>

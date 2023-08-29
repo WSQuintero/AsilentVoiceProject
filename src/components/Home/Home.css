@@ -45,3 +45,12 @@
 .cls-1{
   color: green;
 }
+
+@media (max-width:1040px) {
+.home__button-menu{
+  top: 0;
+  right: 40%;
+  left: 40%;
+}
+  
+}

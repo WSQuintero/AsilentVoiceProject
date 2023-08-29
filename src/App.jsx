@@ -1,8 +1,9 @@
 import { Home } from "./components/Home/Home"
 import { NavBar } from "./components/NavBar/NavBar"
-import "./App.css"
 import { useState } from "react"
 import { GaleryCharacters } from "./components/GaleryCharacters/GaleryCharacters"
+import {History} from "./components/History/History"
+import "./App.css"
 
 function App() {
   const [openMenu, setOpenMenu] = useState(false)
@@ -18,6 +19,7 @@ function App() {
           observerGalery={observerGalery}
           setObserverGalery={setObserverGalery}
         />
+        <History/>
       </main>
     </>
   )

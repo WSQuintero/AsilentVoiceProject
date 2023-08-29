@@ -5,7 +5,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("/public/img/fondo-flor_Mesa\ de\ trabajo\ 1.png");
+  background-image: url("/img/fondo-flor_Mesa\ de\ trabajo\ 1.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -15,4 +15,35 @@
   height: 50%;
   background-color: aqua;
   visibility: hidden;
+}
+
+.galery-container__buttons{
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.galery-container__buttons img{
+  width: 50%;
+  fill: black;
+}
+
+.galery__left-button{
+width: 100px;
+height: 100px;
+object-fit: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+border: none;
+}
+.galery__right-button{
+width: 100px;
+height: 100px;
+object-fit: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+border: none;
 }

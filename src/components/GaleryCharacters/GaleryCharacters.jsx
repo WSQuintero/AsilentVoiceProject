@@ -25,7 +25,15 @@ function GaleryCharacters({ setOpenMenu }) {
 
   return (
     <section className='galery-character__container'>
-      <CharacterCard galery={galery} img />
+      <div className='galery-container__buttons'>
+        <button className='galery__left-button'>
+          <img src='/svg/arrow_left_color.svg' alt='button left' />
+        </button>
+        <CharacterCard galery={galery} img />
+        <button className='galery__right-button'>
+          <img src='/svg/arrow_right_color.svg' alt='button right' />
+        </button>
+      </div>
     </section>
   )
 }
