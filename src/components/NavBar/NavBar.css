@@ -8,7 +8,8 @@
   background-color: #441349;
   padding: 1px;
   align-items: center;
-  right: 20px;
+  right: 0px;
+  margin-top: 50px;
 }
 
 .nav-bar__link {
@@ -19,20 +20,40 @@
   border: 1px solid white;
   display: grid;
   place-content: center;
+  align-items: center;
   padding: 10px;
+  transition: background-color 100ms ease-in-out;
 }
-.nav-bar{
-    position: relative;
-    width: 100%;
+.nav-bar__link:hover{
+  background-color: #e693f0;
 }
+.nav-bar__link:hover a{
+  color: #441349;
+  font-weight: 600;
+}
+.nav-bar {
+  position: relative;
+  width: 100%;
+  animation: initnavbar 200ms ease-in-out;
+}
+
+@keyframes initnavbar {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
 .nav-bar__container-links::after {
   width: 160px;
   height: 100px;
-  background-color: #6E2C77;
+  background-color: #6e2c77;
   border-radius: 100%;
-  z-index:9999;
-   content: "";
-   position: absolute;
+  z-index: 9999;
+  content: "";
+  position: absolute;
   background-image: url("/img/Logo_Silent_Voice.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -40,25 +61,24 @@
   left: -150px;
 }
 
-
 .nav-bar__link a {
-  height: 20px;
+  height: 100%;
+  width: 100%;
   color: white;
   text-decoration: none;
   padding: 0;
   margin: 0;
   display: flex;
-  
+
 }
 
-
-@media (max-width:1040px) {
+@media (max-width: 1040px) {
   .nav-bar__container-links::after {
-  display: none;
-}
-.nav-bar__container-links {
-  width: 100%;
-  position: relative;
-  right: 0;
-}
+    display: none;
+  }
+  .nav-bar__container-links {
+    width: 100%;
+    position: relative;
+    right: 0;
+  }
 }

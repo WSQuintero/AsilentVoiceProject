@@ -4,11 +4,12 @@ import "./Home.css"
 function Home({ openMenu, setOpenMenu }) {
   return (
     <section className='home'>
-      <Bubble />
-      <Bubble />
-      <Bubble />
-      <Bubble />
-      <Bubble />
+      <Bubble img={"/img/characters/character_Mesa de trabajo 1.png"} />
+      <Bubble img={"/img/characters/character-02.png"} />
+      <Bubble img={"/img/characters/character-03.png"} />
+      <Bubble img={"/img/characters/character-04.png"} />
+      <Bubble img={"/img/characters/character-05.png"} />
+      <Bubble img={"/img/characters/character-06.png"} />
       <button
         className='home__button-menu'
         onClick={() => setOpenMenu(!openMenu)}

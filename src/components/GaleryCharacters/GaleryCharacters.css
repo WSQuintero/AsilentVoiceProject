@@ -1,0 +1,18 @@
+.galery-character__container{
+  height: 100vh;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/public/img/fondo-flor_Mesa\ de\ trabajo\ 1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.galery-character__element{
+  width: 50%;
+  height: 50%;
+  background-color: aqua;
+  visibility: hidden;
+}
