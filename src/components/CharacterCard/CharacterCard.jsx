@@ -1,8 +1,8 @@
 import "./CharacterCard.css"
 
-function CharacterCard({ galery, img }) {
+function CharacterCard({  img }) {
   return (
-    <article className='character-card__container' ref={galery}>
+    <article className='character-card__container' >
       <div className='character-card__img'>
         <img src={"/img/characters/character-03.png"} alt='character' />
       </div>

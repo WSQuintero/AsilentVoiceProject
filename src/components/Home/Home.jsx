@@ -3,7 +3,7 @@ import "./Home.css"
 
 function Home({ openMenu, setOpenMenu }) {
   return (
-    <section className='home'>
+    <section className='home' id="home">
       <Bubble img={"/img/characters/character_Mesa de trabajo 1.png"} />
       <Bubble img={"/img/characters/character-02.png"} />
       <Bubble img={"/img/characters/character-03.png"} />

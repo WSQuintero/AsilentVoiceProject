@@ -30,7 +30,7 @@
   padding-right: 50px;
 }
 
-.history_button{
+.history_button {
   width: 150px;
   height: 40px;
   margin-top: 50px;
@@ -40,18 +40,17 @@
   align-items: center;
   justify-content: space-around;
   color: #54175c;
-font-size: 2.6rem;
-border: 2px solid #d37edf;
-
+  font-size: 2.6rem;
+  border: 2px solid #d37edf;
+  cursor: pointer;
 }
 
-.history__arrow{
+.history__arrow {
   width: 10%;
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 @media (max-width: 1040px) {
   .history__container {
@@ -83,5 +82,4 @@ border: 2px solid #d37edf;
     border-radius: 10px;
     flex-direction: column;
   }
- 
 }
