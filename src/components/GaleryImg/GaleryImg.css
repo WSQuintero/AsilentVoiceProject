@@ -6,13 +6,14 @@
   flex-direction: column;
   align-items: center;
   gap: 10px;
+  overflow: hidden;
 }
 .galery-img__one {
   width: 98%;
   max-width: 1920px;
   height: auto;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 5px;
   margin-top: 10px;
 }
