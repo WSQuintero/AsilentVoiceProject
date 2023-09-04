@@ -1,7 +1,7 @@
 .home {
   width: 100%;
   min-height: 100vh;
-  background-image: url("/img/Home_Mesa\ de\ trabajo\ 1.jpg");
+  background-image: url("https://i.ibb.co/2KxZKM5/Home-Mesa-de-trabajo-1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -33,24 +33,22 @@
   transform: scale(1.2);
 }
 
-.home__button-menu img{
+.home__button-menu img {
   background-color: none;
-  object-fit:cover;
+  object-fit: cover;
   width: 60px;
   height: 60px;
   color: white;
-  
 }
 
-.cls-1{
+.cls-1 {
   color: green;
 }
 
-@media (max-width:1040px) {
-.home__button-menu{
-  top: 0;
-  right: 40%;
-  left: 40%;
-}
-  
+@media (max-width: 1040px) {
+  .home__button-menu {
+    top: 0;
+    right: 40%;
+    left: 40%;
+  }
 }

@@ -1,69 +1,161 @@
+/* Estilos para el carrusel (Swiper) */
+.mySwiper2 {
+  width: 90%;
+  height: 500px;
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: aliceblue;
+  border-radius: 20px;
+  object-fit: contain;
+  object-position: center;
+}
+
+.mySwiper2 img {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  height: auto !important;
+}
+
+/* Estilos para la galería de imágenes */
 .galery-img__container {
   min-height: 100vh;
   width: 100%;
-  background-image: url("/img/background-galery.jpg");
+  background-image: url("https://i.ibb.co/mXv2fJn/background-galery.jpg");
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 10px;
   overflow: hidden;
 }
+
 .galery-img__one {
-  width: 98%;
+  width: 90%;
   max-width: 1920px;
   height: auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 5px;
-  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 25px;
+  object-fit: contain;
+  border: solid 1px white;
+  padding: 15px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.galery-img__three--video {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
 }
 
 .galery-img__one--element {
-  background-color: white;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   border-radius: 20px;
   transition: transform 300ms ease-in-out;
-    transform-origin: top center;
-
-}
-.galery-img__one--element:hover{
-  transform: scale(1.05);
+  transform-origin: top center;
+  transition: transform 200ms ease-in-out;
 }
 
+.galery-img__one--element:hover {
+  transform: rotate(5deg);
+}
 .galery-img__two {
-  width: 97%;
-  height: 500px;
+  width: 90%;
+  max-height: 500px;
+  height: auto;
   background-color: aliceblue;
   border-radius: 20px;
 }
 
 .galery-img__three {
-  width: 97%;
+  width: 90%;
+  max-width: 1920px;
+  border: solid 0.2px rgb(158, 84, 167);
+  padding: 15px;
+  border-radius: 20px;
+  margin-bottom: 10px;
   height: 400px;
   display: flex;
-  gap:15px;
+  gap: 15px;
 }
 
 .galery-img__three--element {
-  background-color: rgb(167, 11, 11);
   width: 50%;
-  border-radius: 20px;
-  
-}
-
-@media (max-width:1040px) {
-.galery-img__two{
-    height: 300px;
-
-}
-.galery-img__three{
-  flex-direction: column;
-  width: 100%;
   height: auto;
+  border-radius: 20px;
 }
-.galery-img__three--element {
-  width: 100%;
-  height: 400px;
+.swiper-button-prev {
+  padding: 30px;
+  background-color: rgba(245, 220, 255, 0.623);
+  border-radius: 100%;
+  background-image: url("/svg/arrow_left_color.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 40%;
 }
-  
+
+.swiper-button-prev::after {
+  display: none;
+}
+.swiper-button-next {
+  padding: 30px;
+  background-color: rgba(245, 220, 255, 0.623);
+  border-radius: 100%;
+  background-image: url("/svg/arrow_right_color.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 40%;
+}
+.swiper-button-next:hover {
+  background-color: rgba(219, 181, 255, 0.904);
+}
+.swiper-button-prev:hover {
+  background-color: rgba(219, 181, 255, 0.904);
+}
+.swiper-button-next::after {
+  display: none;
+}
+/* Media queries */
+@media (max-width: 1040px) {
+  .galery-img__two {
+    height: 300px;
+  }
+
+  .galery-img__three {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+  }
+
+  .galery-img__three--element {
+    width: 100%;
+    height: 300px;
+  }
+  .galery-img__three--video {
+    height: 200px;
+  }
+  /* Estilos para el carrusel (Swiper) */
+  .mySwiper2 {
+    width: 90%;
+    height: auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .galery-img__one--element {
+    width: 100%;
+    height: auto;
+  }
+  .galery-img__three {
+    flex-direction: column;
+    width: 100%;
+  }
 }

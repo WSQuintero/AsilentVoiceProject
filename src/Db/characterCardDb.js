@@ -1,40 +1,40 @@
 const charactersCardDb = [
   {
-    image: "/img/characters/character-03.png",
-    name: "shizu1",
+    image: "https://i.ibb.co/b6tFbhx/character-03.png",
+    name: "Shoya Ishida",
     description:
-      "sjnasfkbsakjfaskfnñasjfsakñfbñaskfnjsabfñkasbfñjkasbñfbañsfbñkbfas",
+      "Protagonista que busca redimirse tras acosar a Shoko en la infancia debido a su sordera.",
   },
   {
-    image: "/img/characters/character-03.png",
-    name: "shizu2",
+    image: "https://i.ibb.co/n6sRr6V/character-05.png",
+    name: "Shoko Nishimiya",
     description:
-      "sjnasfkbsakjfaskfnñasjfsakñfbñaskfnjsabfñkasbfñjkasbñfbañsfbñkbfas",
+      "Joven sorda que lucha por la aceptación y amistad en un mundo a menudo insensible.",
   },
   {
-    image: "/img/characters/character-03.png",
-    name: "shizu3",
+    image: "https://i.ibb.co/9VkDFsh/character-04.png",
+    name: "Yuzuru Nishimiya",
     description:
-      "sjnasfkbsakjfaskfnñasjfsakñfbñaskfnjsabfñkasbfñjkasbñfbañsfbñkbfas",
+      " La protectora hermana menor de Shoko, que desempeña un papel clave en la historia.",
   },
   {
-    image: "/img/characters/character-03.png",
-    name: "shizu4",
+    image: "https://i.ibb.co/r0CPbq6/character-02.png",
+    name: "Tomohiro Nagatsuka",
     description:
-      "sjnasfkbsakjfaskfnñasjfsakñfbñaskfnjsabfñkasbfñjkasbñfbañsfbñkbfas",
+      "Amigo cercano de Shoya que lo apoya en su camino hacia la redención.",
   },
   {
-    image: "/img/characters/character-03.png",
-    name: "shizu5",
+    image: "https://i.ibb.co/qs2qq11/character-06.png",
+    name: "Miyoko Sahara",
     description:
-      "sjnasfkbsakjfaskfnñasjfsakñfbñaskfnjsabfñkasbfñjkasbñfbañsfbñkbfas",
+      "Amiga de la infancia de Shoko que mantiene un vínculo especial con ella.",
   },
   {
-    image: "/img/characters/character-03.png",
-    name: "shizu6",
+    image: "https://i.ibb.co/d51g2tg/character_Mesa de trabajo 1.png",
+    name: "Naoka Ueno",
     description:
-      "sjnasfkbsakjfaskfnñasjfsakñfbñaskfnjsabfñkasbfñjkasbñfbañsfbñkbfas",
+      "Antigua amiga de Shoko con una relación complicada con ella y Shoya en la secundaria.",
   },
 ]
 
-export {charactersCardDb}
+export { charactersCardDb }

@@ -6,7 +6,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 40px;
+  gap: 20px;
+
 }
 
 .history__aside {
@@ -24,10 +25,10 @@
 }
 
 .history__parraf {
-  width: 40%;
+  width: 60%;
   font-size: 2.5rem;
   color: #ab6cb3;
-  padding-right: 50px;
+  padding-right: 70px;
 }
 
 .history_button {
@@ -81,5 +82,6 @@
     justify-content: center;
     border-radius: 10px;
     flex-direction: column;
+    overflow-y: scroll;
   }
 }

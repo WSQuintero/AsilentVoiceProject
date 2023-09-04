@@ -9,13 +9,21 @@
   border-radius: 50%;
   position: absolute;
   background-size: cover;
-  cursor: pointer;
   overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: transform 300ms ease-in-out;
 }
 
+.bubble:hover{
+  transform: scale(2);
+    background: radial-gradient(
+    circle,
+    rgba(249, 216, 255, 0.8) 0%,
+    rgba(153, 38, 219, 0.418) 75%
+  );
+}
 .bubble img {
   object-fit: cover;
   object-position: top;
