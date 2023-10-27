@@ -1,24 +1,25 @@
 const characterSlider = [
-  "https://i.ibb.co/6rnmbqy/1.jpg",
-  "https://i.ibb.co/SKDqF8r/2.jpg",
-  "https://i.ibb.co/8M1K9bq/3.jpg",
-  "https://i.ibb.co/47mDh5z/4.jpg",
-  "https://i.ibb.co/pZp4wbT/5.jpg",
-  "https://i.ibb.co/3h5vH00/6.jpg",
-  "https://i.ibb.co/8P4kHbZ/7.jpg",
+  "https://i.ibb.co/dDR2YMb/1.jpg",
+"https://i.ibb.co/R0Th6LN/2.jpg",
+"https://i.ibb.co/HKGXfVR/3.jpg",
+"https://i.ibb.co/PCL8ySt/4.jpg",
+"https://i.ibb.co/Y3KQ4xY/5.jpg",
+"https://i.ibb.co/PjSzn1g/6.jpg",
+"https://i.ibb.co/2MtN2Vn/7.jpg"
 ]
 
 const characterImage = [
-  "https://i.ibb.co/PZgW1yW/nishi8.jpg",
-  "https://i.ibb.co/ZdvxyT9/nishi9.jpg",
-  "https://i.ibb.co/b7bdnph/nishi6.jpg",
-  "https://i.ibb.co/thqm2s6/nishi5.jpg",
-  "https://i.ibb.co/2qD53s2/nishi7.jpg",
-  "https://i.ibb.co/SK11JWM/nishi3.jpg",
-  "https://i.ibb.co/2yr6p23/nishi4.jpg",
-  "https://i.ibb.co/Z1rhhWm/nishi2.jpg",
-  "https://i.ibb.co/SvHnZY0/nishi1.jpg",
-  "https://i.ibb.co/jh0rxPc/nishi.jpg",
+  "https://i.ibb.co/tJ0CjGn/nishi.jpg",
+"https://i.ibb.co/pwY9QJg/nishi1.jpg",
+"https://i.ibb.co/bNf1W9D/nishi2.jpg",
+"https://i.ibb.co/gT6X9pw/nishi3.jpg",
+"https://i.ibb.co/128HLjQ/nishi4.jpg",
+"https://i.ibb.co/WDBDs13/nishi5.jpg",
+"https://i.ibb.co/Qn1G4Mv/nishi6.jpg",
+"https://i.ibb.co/9WpcWkR/nishi7.jpg",
+"https://i.ibb.co/5L3RFK3/nishi8.jpg",
+"https://i.ibb.co/D7XxpXt/nishi9.jpg"
 ]
 
 export { characterSlider, characterImage }
+
