@@ -20,7 +20,7 @@ function History({ setOpenMenu }) {
           src='https://i.ibb.co/ZHnG9j8/character-one.jpg'
           alt='character-one'
           className='history__aside--img'
-          loading='lazy'
+
         />
       </aside>
       <div className='history__parraf'>
@@ -45,7 +45,7 @@ function History({ setOpenMenu }) {
             <img
               src='/svg/arrow_right_color.svg'
               alt='arrow right'
-              loading='lazy'
+
             />
           </span>
         </button>

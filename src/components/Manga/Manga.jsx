@@ -21,15 +21,15 @@ function Manga({ setOpenManga }) {
     <div className='manga'>
       <div className='manga__container'>
         <button className='manga__button' onClick={handleScrollLeft}>
-          <img src='/svg/arrow_left.svg' alt='cap manga' loading='lazy' />
+          <img src='/svg/arrow_left.svg' alt='cap manga'  />
         </button>
         <div className='manga__container--img' ref={container}>
           {mangaDb.map((chapter) => (
-            <img src={chapter} alt='chapter' key={chapter} loading='lazy' />
+            <img src={chapter} alt='chapter' key={chapter}  />
           ))}
         </div>
         <button className='manga__button' onClick={handleScrollRight}>
-          <img src='/svg/arrow_right.svg' alt='manga' loading='lazy' />
+          <img src='/svg/arrow_right.svg' alt='manga'  />
         </button>
       </div>
       <button

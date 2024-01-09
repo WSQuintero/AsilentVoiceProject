@@ -11,7 +11,7 @@ function App() {
 
   return (
     <>
-      <header>{openMenu && <NavBar></NavBar>}</header>
+      <header>{openMenu && <NavBar/>}</header>
       <main>
         <Home openMenu={openMenu} setOpenMenu={setOpenMenu} />
         <GaleryCharacter openMenu={openMenu} setOpenMenu={setOpenMenu} />

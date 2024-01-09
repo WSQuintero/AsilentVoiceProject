@@ -45,7 +45,7 @@ function Bubble({ img }) {
 
   return (
     <div className='bubble' style={bubbleStyle}>
-      <img src={img} alt='character' loading='lazy'  />
+      <img src={img} alt='character'   />
     </div>
   )
 }
